@@ -15,6 +15,10 @@ $ curl -s -X POST localhost:8000/ask -H 'Content-Type: application/json' \
  "sources": [{"n": 1, "page": "p. 8", "score": 0.836, "text": "When applying the AI RMF, risks which ..."}], ...}
 ```
 
+The same API in FastAPI's interactive docs page (`/docs`): the answer, whether it refused, and the cited source passage with its page:
+
+![DocQA answering a question through the /docs page](docs/api-demo.png)
+
 ## How it works
 
 ```mermaid
