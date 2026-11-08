@@ -1,0 +1,30 @@
+{"id": "q01", "type": "answerable", "question": "What are the four functions of the AI RMF Core?", "expected_pages": ["20"], "must_include": [["govern"], ["map"], ["measure"], ["manage"]]}
+{"id": "q02", "type": "answerable", "question": "Which AI RMF function is cross-cutting and informs the other three?", "expected_pages": ["20", "22"], "must_include": [["govern"]]}
+{"id": "q03", "type": "answerable", "question": "Which trustworthiness characteristic is a necessary condition for the others?", "expected_pages": ["12"], "must_include": [["valid"], ["reliable"]]}
+{"id": "q04", "type": "answerable", "question": "What should happen to an AI system that presents unacceptable negative risk levels?", "expected_pages": ["8"], "must_include": [["cease", "stop", "halt"]]}
+{"id": "q05", "type": "answerable", "question": "What are the three major categories of AI bias identified by NIST?", "expected_pages": ["18"], "must_include": [["systemic"], ["computational", "statistical"], ["human-cognitive", "human cognitive", "cognitive"]]}
+{"id": "q06", "type": "answerable", "question": "How does the AI RMF define risk?", "expected_pages": ["4"], "must_include": [["probability", "likelihood"], ["magnitude", "consequence", "degree"]]}
+{"id": "q07", "type": "answerable", "question": "Does the AI RMF prescribe a specific risk tolerance?", "expected_pages": ["7"], "must_include": [["does not", "doesn't", "not prescribe", "no,", "no."]]}
+{"id": "q08", "type": "answerable", "question": "Which question does transparency answer about an AI system?", "expected_pages": ["17"], "must_include": [["what happened"]]}
+{"id": "q09", "type": "answerable", "question": "Which question does interpretability answer about an AI system?", "expected_pages": ["17"], "must_include": [["why"]]}
+{"id": "q10", "type": "answerable", "question": "Which standard is used to define accuracy in the AI RMF?", "expected_pages": ["14"], "must_include": [["5723"]]}
+{"id": "q11", "type": "answerable", "question": "What kinds of methods does the MEASURE function use?", "expected_pages": ["28"], "must_include": [["quantitative"], ["qualitative"]]}
+{"id": "q12", "type": "answerable", "question": "When should AI systems be tested according to the MEASURE function?", "expected_pages": ["28"], "must_include": [["before"], ["regularly", "operation", "ongoing"]]}
+{"id": "q13", "type": "answerable", "question": "What risk response options are listed for high-priority AI risks?", "expected_pages": ["32"], "must_include": [["mitigat"], ["transfer"], ["avoid"], ["accept"]]}
+{"id": "q14", "type": "answerable", "question": "What is the online companion resource to the AI RMF called?", "expected_pages": ["21", "3"], "must_include": [["playbook"]]}
+{"id": "q15", "type": "answerable", "question": "Which functions use the outcomes of the MAP function as their basis?", "expected_pages": ["25"], "must_include": [["measure"], ["manage"]]}
+{"id": "q16", "type": "answerable", "question": "What does GOVERN 1.7 require regarding AI systems that are being retired?", "expected_pages": ["23"], "must_include": [["decommission", "phasing out", "phase out", "phased out"]]}
+{"id": "q17", "type": "answerable", "question": "What does GOVERN 1.6 say organizations should have mechanisms for?", "expected_pages": ["23"], "must_include": [["inventory"]]}
+{"id": "q18", "type": "answerable", "question": "What is established in the first category of the MAP function (MAP 1)?", "expected_pages": ["26"], "must_include": [["context"]]}
+{"id": "q19", "type": "answerable", "question": "Name some types of AI actors involved in AI Design tasks.", "expected_pages": ["35"], "must_include": [["data scientist", "domain expert"]]}
+{"id": "q20", "type": "answerable", "question": "Is a transparent AI system necessarily accurate or fair?", "expected_pages": ["16"], "must_include": [["not necessarily", "is not", "does not", "doesn't", "no,", "no."]]}
+{"id": "q21", "type": "answerable", "question": "Which NIST frameworks does the AI RMF mention for reducing security and privacy risks?", "expected_pages": ["39"], "must_include": [["cybersecurity framework"], ["privacy framework"]]}
+{"id": "q22", "type": "answerable", "question": "How do accuracy and robustness relate to each other in AI systems?", "expected_pages": ["14"], "must_include": [["tension"]]}
+{"id": "q23", "type": "answerable", "question": "Where should AI risk management efforts ideally start in the AI lifecycle?", "expected_pages": ["10"], "must_include": [["plan and design", "planning and design"]]}
+{"id": "q24", "type": "answerable", "question": "Who sets the tone for risk management within an organization?", "expected_pages": ["22"], "must_include": [["senior leadership", "leadership"]]}
+{"id": "q25", "type": "answerable", "question": "Which question does explainability answer about an AI system?", "expected_pages": ["17"], "must_include": [["how"]]}
+{"id": "u01", "type": "unanswerable", "question": "Who is the current director of NIST?", "expected_pages": [], "must_include": []}
+{"id": "u02", "type": "unanswerable", "question": "What is the maximum fine under the EU AI Act?", "expected_pages": [], "must_include": []}
+{"id": "u03", "type": "unanswerable", "question": "Which programming language does the AI RMF recommend for building AI systems?", "expected_pages": [], "must_include": []}
+{"id": "u04", "type": "unanswerable", "question": "What new functions were added in AI RMF 2.0?", "expected_pages": [], "must_include": []}
+{"id": "u05", "type": "unanswerable", "question": "How many employees does NIST have?", "expected_pages": [], "must_include": []}

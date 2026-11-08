@@ -72,12 +72,19 @@ def chunk_words(text: str, size: int, overlap: int) -> list[str]:
     return chunks
 
 
-def build_chunks(pages: list[dict], size: int, overlap: int, min_words: int = 25) -> list[dict]:
+def build_chunks(
+    pages: list[dict], size: int, overlap: int, min_words: int = 25, skip_front_matter: bool = True
+) -> list[dict]:
     """Chunk page by page so every chunk maps to exactly one page (simple, exact citations)."""
     chunks = []
     for page in pages:
         text, label = clean_page(page["text"])
         if len(text.split()) < min_words:  # cover page, blank pages, section dividers
+            continue
+        # Front matter (notice, table of contents, list of figures) has no printed page
+        # number. It repeats section titles, so it matches many questions without
+        # containing answers. Found via the eval: it pushed the definition of "risk" to rank 9.
+        if skip_front_matter and label is None:
             continue
         for part in chunk_words(text, size, overlap):
             chunks.append(

@@ -1,0 +1,46 @@
+[
+  {
+    "config": "chunk 200/40, v1_basic",
+    "retrieval_hit": 0.96,
+    "correct": 24,
+    "answerable": 25,
+    "refusals_correct": 0,
+    "unanswerable": 5,
+    "false_refusals": 0,
+    "cited": 2,
+    "seconds_per_q": 6.4
+  },
+  {
+    "config": "chunk 200/40, v2_grounded",
+    "retrieval_hit": 0.96,
+    "correct": 24,
+    "answerable": 25,
+    "refusals_correct": 5,
+    "unanswerable": 5,
+    "false_refusals": 1,
+    "cited": 24,
+    "seconds_per_q": 5.1
+  },
+  {
+    "config": "chunk 200/40, v3_quote_first",
+    "retrieval_hit": 0.96,
+    "correct": 23,
+    "answerable": 25,
+    "refusals_correct": 5,
+    "unanswerable": 5,
+    "false_refusals": 1,
+    "cited": 24,
+    "seconds_per_q": 6.8
+  },
+  {
+    "config": "chunk 400/80, v2_grounded",
+    "retrieval_hit": 0.96,
+    "correct": 24,
+    "answerable": 25,
+    "refusals_correct": 5,
+    "unanswerable": 5,
+    "false_refusals": 0,
+    "cited": 25,
+    "seconds_per_q": 7.1
+  }
+]
